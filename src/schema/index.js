@@ -126,4 +126,4 @@ const rootType = new GraphQLObjectType({
   }),
 });
 
-export default new GraphQLSchema({ query: rootType });
+export default new GraphQLSchema({ query: rootType, mutation: rootType });
